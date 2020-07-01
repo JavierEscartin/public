@@ -1,0 +1,443 @@
+.top-horizontal {
+     padding-top:90px!important;
+     display: inline-block;
+     width: 100%;
+}
+ .top-horizontal-left {
+     float: left;
+     padding-left:23px !important;
+     font-weight: bold;
+}
+
+.remodal-cancel {
+	margin-left: 19px !important
+}
+
+.remodal {
+	border-left: 6px solid #0000E6;
+}
+
+#task-table_wrapper, #files-table_wrapper {
+    width: 1000px !important;
+	margin-left: -27px;
+}
+
+#filterFilesByTask {
+	cursor: pointer;
+}
+
+a {
+	color:#0000E6!important;
+}
+
+.nav-tabs > li > a {
+    color: #0000E6
+}
+
+.nav-tabs > li > a:hover {
+    color:#5151FF
+}
+
+.app-name {
+	float:right;
+	color:white;
+	margin-top: -41px;
+	padding-right: 31px;
+	font-size: 25px;
+	font-weight:bold;
+}
+
+.alert-bottom {
+    position: fixed;
+    bottom: 5px;
+    right:2%;
+    width: 20%;
+}
+
+.alert {
+    display: none;
+}
+
+.alert-info
+{
+	color: #333333;
+	background-color: #F5F5F5;
+	border: 2px solid #333333;
+}
+
+
+input[type="radio"] {
+	margin-top: -2px;
+	height: 15px;
+}
+
+.generation-mode-button {
+    padding-top: 5px;
+    position: absolute;
+    left: 50%;
+}
+
+/* Estilos comunes a elementos de formulario */
+select, input {
+    vertical-align:middle;
+    height:30px;
+}
+input, select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input.center-text {
+    text-align:center;
+}
+
+/* Eliminar el botoncito de X en el time */
+input[type="time"]::-webkit-clear-button {
+    display: none;
+}
+
+.calendar-table th {
+	color: black !important;
+	background-color: white !important;
+	border-radius: 0px !important;
+}
+
+.daterangepicker .drp-calendar {
+    max-width: 312px !important;
+}
+
+/* Mover el cuadro de deterangepicker cerca del input */
+.daterangepicker.ltr.show-calendar.opensright.drop-up {
+	top: 260px !important;
+}
+
+.table-th-general {
+	padding-left:10px !important
+}
+
+.section-numbers {
+	font-size: 45px;
+	display: inline;
+	color: #0000E6;
+	font-weight: bold;
+	margin-left: -7px;
+}
+
+.destination-info {
+	font-size: 12px;
+	margin-left: 23px !important;
+	margin-top: -10px !important;
+}
+
+.task-table-div, .files-table-div {
+	margin-left: 60px !important;
+}
+
+.tooltip.in {
+	opacity: 1 !important;
+}
+
+.inner-div-tables {
+	margin-left: 28px !important;
+}
+
+.tab-info {
+	background-color: #f5f5f5;
+	border-left: 6px solid #0000E6;
+	padding: 17px 17px 5px 17px;
+	width: 1061px;
+	margin: 14px 0px 10px 26px;
+	color: #333333
+}
+
+.tooltip-inner {
+	font-size: 14px !important;
+	color: #0077BE !important;
+	background-color: #E7F3FE;
+	border: 2px solid #0077BE;
+	filter: alpha(opacity=100);
+	font-weight: 500;
+	font-family: 'Roboto', serif;
+    white-space: pre-line !important;
+	padding: 10px !important;
+}
+
+.tooltip-arrow {
+	background-color: #E7F3FE !important;
+	border-top-color: #0077BE !important;
+}
+
+#downloadOneFile {
+	cursor: pointer;
+}
+
+#periodic-div {
+	margin-left: 76px;
+	margin-top: 15px;
+	background-color: #EBEBEB;
+	width: 943px;
+	height: 148px !important;
+	border: 1px solid rgb(183, 183, 183);
+}
+
+#live-div {
+	margin-left: 76px;
+	margin-top: 15px;
+	background-color: #EBEBEB;
+	width: 943px;
+	height: 148px !important;
+	display: none;
+	border: 1px solid rgb(183, 183, 183);
+}
+
+body {
+	background-color: #EBEBEB;
+	/* Estilo general de textos */
+	font-family: 'Roboto', serif;
+}
+
+.csv-type-div {
+	padding-left: 50px;
+	padding-top: 10px !important;
+}
+
+.generation-checkboxes-div {
+	padding-left: 50px;
+	padding-top: 10px !important;
+}
+.remodal-confirm {
+	background-color: #0000E6 !important;
+}
+
+.periodic-div-content {
+	display: inline;
+	padding-left: 30px;
+}
+
+.live-div-content {
+	display: inline;
+	padding-left: 30px;
+}
+
+#periodicity {
+	width: 30px !important;
+}
+
+#external-path-input {
+	width: 163px !important;
+}
+
+#external-user-input, #external-password-input, #external-domain-input {
+	width: 75px !important;
+}
+
+.file-info {
+	display: inline-block;
+	padding-left: 40px;
+	vertical-align: top;
+}
+
+#generateTaskButton-periodic, #generateTaskButton-on-demand {
+	margin-top: 14px
+}
+
+#file-info-content {
+	padding-left: 30px;
+	visibility: hidden;
+}
+
+#file-info-content-periodicity, #file-info-content-destination {
+	display: inline;
+}
+
+.task-info {
+	display: inline-block;
+	padding-left: 40px;
+	vertical-align: top;
+}
+
+label {
+	font-weight: normal;
+}
+
+#task-info-content {
+	padding-left: 30px;
+	visibility: hidden;
+}
+
+#task-info-content-external {
+	padding-left: 30px;
+	visibility: hidden;
+}
+
+#task-info-content-periodicity, #task-info-content-destination, #external-path, #external-user, #external-pass, #external-domain {
+	display: inline;
+}
+
+#file-info-content-size, #file-info-content-created{
+	display: inline;
+}
+
+#external-domain-div {
+	display: inline;
+	visibility: hidden;
+}
+
+.task-buttons {
+	padding-top: 8px;
+}
+
+#time-div {
+	display: inline;
+}
+
+.modal-content-file-destination {
+	background-color: #FFFFFF;
+	margin-bottom: 20px !important;
+}
+
+.info-text {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 12px;
+	top: 2px !important;
+	position: relative;
+
+	float: right;
+}
+
+.external-checkbox-input {
+	position: relative;
+	top: 1px;
+}
+
+#dest-external {
+	margin-left: 35px !important;
+}
+
+#on-demand {
+	margin-left: 81px !important;
+}
+
+.modal-dialog {
+	width: 100%;
+	margin-top: -2px;
+}
+
+.dest-external-data {
+	padding-top: 5px;
+	display:inline;
+	background-color: #EBEBEB;
+	line-height: 18px;
+	margin-left: 34px !important;
+	padding: 10px;
+	border: 1px solid rgb(183, 183, 183);
+}
+
+.checkbox-dest-external-data {
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 12px !important;
+}
+
+.dates-external-path {
+	padding-top: 5px;
+}
+
+.checkbox-dates-external-path {
+	padding-top: 10px;
+	padding-left: 5px;
+	font-size: 12px !important;
+}
+
+#task-list, #files-list {
+	width: 320px;
+}
+
+#modal-content-csv-list, #modal-content-task-list {
+	background-color: #FFFFFF;
+	height: 295px !important;
+}
+
+.modal-content-periodic {
+	background-color: #FFFFFF;
+	height: 124px;
+	width: 452px;
+	margin-bottom: 23px !important;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.modal-content-fechas {
+	background-color: #FFFFFF;
+	height: 124px;
+	width: 452px;
+	margin-bottom: 20px !important;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.selector-fechas {
+	height: 30px!important;
+	font-family: Helvetica!important;
+	color: #495057;
+	width: 300px;
+	padding-left: 10px;
+	margin-top: 4px;
+	background-color: #ffffff;
+	border: 0;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-color: #C5C5C5;
+	border-width: 1px;
+}
+
+.form-control {
+	width: 121% !important;
+}
+
+.modal-title {
+	margin: 0;
+	line-height: 100%;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+	background: #333333;
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+	height: 80px !important;
+	/* Header fijo */
+	width: 100%;
+	/*position: fixed;*/
+	top: 0;
+	z-index: 100;
+	border-bottom: 7px solid #0000E6;
+}
+
+.logo {
+	padding-left: 25px;
+	padding-top: 21px;
+}
+
+.danobatgroup-logo {
+	height: 60%;
+	height: 63%;
+	margin-top: -6px;
+	margin-left: 3px
+}
+
+.modal-content {
+    box-shadow: 0 0px 0px rgba(0,0,0,.5)!important;
+	border:none !important;
+	border-radius: 0px!important;
+}

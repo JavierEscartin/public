@@ -1,0 +1,8 @@
+._dash-undo-redo {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1001;
+    background: rgba(0,0,0,0);
+    display: none !important;
+}
